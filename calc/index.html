@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Калькулятор</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h2 class="display-2">Калькулятор</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-5 calculate">
+            <label for="tirazh">Тираж</label>
+            <input
+              type="number"
+              name="tirazh"
+              id="tir"
+              min="30"
+              step="30"
+              value="30"
+            />
+            <p class="subItogo">Листов: <span id="itogoPages">1</span> шт.</p>
+            <br>
+            <br />
+            <label for="paper">Бумага</label>
+            <select name="paper" id="pap">
+              <!-- <option value="1">Выберите бумагу</option> -->
+            </select>
+            <br />
+            <label for="color">Цветность</label>
+            <select name="color" id="col"></select>
+            <p id="itogo_p">Итого: <span id="itogo">0</span> руб., из них:</p><br>
+            <p class="subItogo">Бумага: <span id="itogoTypePaper">0</span> руб./лист</p><br>
+            <p class="subItogo">Вывод из файла: <span id="itogoForma">0</span> руб.</p><br>
+            <p class="subItogo">Оттиск: <span id="itogoPrintForPage">0</span> руб./лист</p><br>
+          </div>
+          <div class="col-7 text-center images">
+            <img src="img/1_0.png" alt="" id="10" />
+            <img src="img/1_1.png" alt="" id="11" />
+            <img src="img/4_0.png" alt="" id="40" />
+            <img src="img/4_1.png" alt="" id="41" />
+            <img src="img/4_4.png" alt="" id="44" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+    <script src="js/my.js"></script>
+  </body>
+</html>
