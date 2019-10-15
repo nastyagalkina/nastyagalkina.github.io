@@ -1,0 +1,31 @@
+body {
+  line-height: 1;
+}
+
+.calculate {
+  border: 7px solid #aeaeae;
+  padding: 20px;
+  min-height: 410px;
+}
+
+.images img {
+  display: none;
+}
+#itogo_p{
+  font-size: 2rem;
+}
+p span {
+  color: red;
+}
+.subItogo {
+  color: #aeaeae;
+}
+
+.subItogo span {
+  color: #d15a5a;
+}
+
+p {
+  padding: 0;
+
+}
