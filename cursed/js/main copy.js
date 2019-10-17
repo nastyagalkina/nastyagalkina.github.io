@@ -61,7 +61,7 @@ function startTheRave() {
     document.getElementById("team").getBoundingClientRect().y + //расстрояние от верха документа до рейва (расстояние от верха viewport до рейва + сдвиг от верха страницы)
     window.pageYOffset
   ).toFixed(2);
-  console.log("RaveDZ :" + raveDistanceZero);
+  // console.log("RaveDZ :" + raveDistanceZero);
 }
 
 setTimeout(startTheRave, 2000);
@@ -72,8 +72,8 @@ function changeAudioVolume() {
     .getBoundingClientRect()
     .top.toFixed(2); //новое расстояние от верха viewport до рейва
   relativeDistance = (raveDistance / raveDistanceZero).toFixed(2);
-  console.log("RaveD: " + raveDistance + "; RelD: " + relativeDistance);
-  console.log(raveAudio.volume);
+  // console.log("RaveD: " + raveDistance + "; RelD: " + relativeDistance);
+  // console.log(raveAudio.volume);
   if (relativeDistance > 1 && raveDistance > 1) {
     relativeDistance = 1;
   }

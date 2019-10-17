@@ -55,6 +55,12 @@ button {
   background-image: linear-gradient(92deg, #f35626 0%, #feab3a 100%);
   animation: hue 0.5s infinite linear;
 }
+.card {
+  padding: 10px;
+  color: #f35626;
+  background-image: linear-gradient(92deg, #f35626 0%, #feab3a 100%);
+  animation: hue 0.6s infinite linear;
+}
 
 #header .rotateIn {
   animation-delay: 1.2s;
