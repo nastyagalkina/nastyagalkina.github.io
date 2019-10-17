@@ -233,6 +233,11 @@ footer h3 {
   display: none;
 }
 
+.carousel-inner .shake {
+  animation-duration: 0.5s;
+  animation-delay: 52s;
+}
+
 #blog a {
   text-decoration: none;
   color: #000;
